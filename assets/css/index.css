@@ -1,0 +1,28 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+body {
+    background-color: #ffffff;
+    font-family: "Merriweather", Georgia, serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #F6F3EF;
+    font-size: 10px;
+    height: 400px;
+    overflow: hidden;
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
